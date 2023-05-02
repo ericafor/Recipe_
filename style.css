@@ -1,0 +1,106 @@
+body{
+    background-color: rgba(122, 191, 191, .5);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+
+
+h1{
+font-size: 40px;
+font-family: 'Bebas Neue', cursive;
+text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+}
+
+nav{
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+}
+
+nav a, nav span{
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+}
+
+li{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+#gridOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1fr 1fr 1fr;
+    background-color: #F2F2F2;
+    ;
+}
+
+#details{
+background-color: #0D0D0D;
+color: #7ABFBF;
+}
+
+#gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #0D0D0D;
+    color: #7ABFBF
+
+}
+
+#gridThree{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #F2F2F2;
+    color: #0D0D0D;
+}
+
+.gridFour{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #7ABFBF;
+    color: #0D0D0D;
+}
+
+
+.SideDishes{
+
+    background-color: #7ABFBF;
+
+}
+
+.Connect{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
