@@ -92,6 +92,9 @@ color: #7ABFBF;
     color: #0D0D0D;
 }
 
+#circle-clip{
+    clip-path: circle(100px at center);
+  }
 
 .SideDishes{
 
@@ -104,3 +107,5 @@ color: #7ABFBF;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
+
+
