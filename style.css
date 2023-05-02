@@ -17,6 +17,8 @@ font-family: 'Bebas Neue', cursive;
 text-align: center;
 }
 
+#navbar li{list-style: none;}
+
 h2{
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
@@ -105,4 +107,16 @@ color: #7ABFBF;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+}
+
+#SocialM li{
+        float: right;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        display: block;
+        color: #EB5428;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      
 }
