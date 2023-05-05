@@ -25,6 +25,11 @@ h2{
     text-align: center;
 }
 
+.search{
+text-align: center;
+
+}
+
 
 
 
@@ -76,9 +81,15 @@ color: #7ABFBF;
 
 .TopMenu{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #EB5428;
+}
 
+#signIn{
+    color: #0D0D0D;
 }
 
 #gridTwo{
@@ -178,5 +189,3 @@ color: #7ABFBF;
         }
           
         }
-
-
